@@ -1,0 +1,16 @@
+Codebitda C++ 2.0.0 — Mac installation
+macOS 13 or later. Apple Silicon (M1 or later) only. Intel Macs are not supported.
+
+1. Download the C++ Mac DMG above and open it.
+2. Open 코드빚다-C++.app inside the DMG. If a security warning appears, see the guidance below.
+3. In 코드빚다 C++ 환경설정 (C++ Setup), click 설치 시작 (Start installation) to install the app in Applications.
+4. If the tools are missing, click Apple 실행 도구 설치 (Install Apple tools) and complete the Apple installer. An internet connection may be required.
+5. Click 설치 완료 여부 확인 (Check installation). After the C++ check passes, click 앱 실행 (Open app).
+6. From then on, open 코드빚다-C++ from Applications. You can eject the installation disk.
+
+Security warnings
+This version is ad-hoc signed and is not notarized by Apple.
+Try opening 코드빚다-C++ once, then check System Settings → Privacy & Security → Open Anyway. Make sure the app name matches 코드빚다-C++. On a school-managed Mac, contact your administrator if you cannot allow it.
+If the app is reported as damaged, download and reinstall it from this website. If the message persists, send the error and your macOS version to your instructor.
+
+Full guide: https://codepretender.com/codebitda-cpp-en.html#mac-install

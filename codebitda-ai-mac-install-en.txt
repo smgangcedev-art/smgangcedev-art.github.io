@@ -1,0 +1,15 @@
+Codebitda AI 2.0.0 — Mac installation
+macOS 13 or later. Apple Silicon (M1 or later) only. Intel Macs are not supported.
+
+1. Download the AI Mac DMG above and open it.
+2. Drag 코드빚다-AI.app to the Applications folder inside the DMG.
+3. When copying is complete, open 코드빚다-AI from Applications in Finder. If a security warning appears, see the guidance below.
+4. The first code run may take a little longer while Python and TensorFlow initialize. Please wait.
+5. Once the app opens, select the assignment or exam option as instructed by your instructor. You can eject the installation disk.
+
+Security warnings
+This version is ad-hoc signed and is not notarized by Apple.
+Try opening 코드빚다-AI once, then check System Settings → Privacy & Security → Open Anyway. Make sure the app name matches 코드빚다-AI. On a school-managed Mac, contact your administrator if you cannot allow it.
+If the app is reported as damaged, download and reinstall it from this website. If the message persists, send the error and your macOS version to your instructor.
+
+Full guide: https://codepretender.com/codebitda-ai-en.html#mac-install
