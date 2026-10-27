@@ -1,0 +1,19 @@
+코드빚다-AI 2.0.0 — Mac 설치 안내
+대상: macOS 13 이상, Apple Silicon(M1 이후). Intel Mac 미지원.
+
+Python 3.11·TensorFlow·NumPy·Matplotlib이 앱에 포함되어 있습니다. Python이나 Anaconda를 별도로 설치할 필요가 없습니다.
+
+1. 위의 AI Mac DMG를 다운로드하고 엽니다.
+2. 코드빚다-AI.app을 DMG 안의 Applications(응용 프로그램) 폴더로 드래그합니다.
+3. 복사가 끝나면 Finder의 응용 프로그램 폴더에서 코드빚다-AI를 실행합니다. 보안 경고가 나오면 아래 안내를 확인하세요.
+4. 첫 코드 실행 때는 Python·TensorFlow 준비에 시간이 걸릴 수 있으니 잠시 기다려 주세요.
+5. 앱이 열리면 담당 교강사의 안내에 따라 과제 시작 또는 시험 응시를 선택합니다. 설치 디스크는 추출해도 됩니다.
+
+보안 경고 안내
+현재 임시 서명 배포본이며 Apple 공증은 포함되지 않습니다.
+이 홈페이지에서 받은 코드빚다-AI 앱인지 확인하고 실행을 한 번 시도한 뒤, 시스템 설정 → 개인정보 보호 및 보안 → 그래도 열기를 확인하세요.
+학교에서 관리하는 Mac은 담당 관리자에게 문의하세요.
+손상 메시지가 계속되면 다시 다운로드·설치한 뒤, 오류 화면과 macOS 버전을 담당 교강사에게 전달해 주세요.
+
+다운로드 및 자세한 안내: https://codepretender.com/codebitda-ai.html#mac-downloads
+Apple 안내: https://support.apple.com/ko-kr/102445
