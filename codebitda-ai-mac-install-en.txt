@@ -1,4 +1,4 @@
-Codebitda AI 2.0.0 — Mac installation
+Codebitda AI 2.0.1 — Mac installation
 macOS 13 or later. Apple Silicon (M1 or later) only. Intel Macs are not supported.
 
 1. Download the AI Mac DMG above and open it.
@@ -13,3 +13,9 @@ Try opening 코드빚다-AI once, then check System Settings → Privacy & Secur
 If the app is reported as damaged, download and reinstall it from this website. If the message persists, send the error and your macOS version to your instructor.
 
 Full guide: https://codepretender.com/codebitda-ai-en.html#mac-install
+
+Automatic updates
+If you use 2.0.0, install 2.0.1 manually once. Future updates download automatically from the home screen.
+Save or submit your work, return home, and choose Update & restart. The app will not restart automatically during exams, assignments, or authoring.
+Update signatures and file integrity are verified. If startup fails, the updater attempts to restore the previous app.
+Install in Applications using your own account. If permissions or macOS security block the update, install the latest DMG manually.
