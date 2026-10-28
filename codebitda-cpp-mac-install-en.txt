@@ -1,4 +1,4 @@
-Codebitda C++ 2.0.1 — Mac installation
+Codebitda C++ 2.0.2 — Mac installation
 macOS 13 or later. Apple Silicon (M1 or later) only. Intel Macs are not supported.
 
 1. Download the C++ Mac DMG above and open it.
@@ -16,7 +16,15 @@ If the app is reported as damaged, download and reinstall it from this website. 
 Full guide: https://codepretender.com/codebitda-cpp-en.html#mac-install
 
 Automatic updates
-If you use 2.0.0, install 2.0.1 manually once. Future updates download automatically from the home screen.
+If you use 2.0.0, install 2.0.2 manually once. Version 2.0.1 downloads this update automatically from the home screen.
 Save or submit your work, return home, and choose Update & restart. The app will not restart automatically during exams, assignments, or authoring.
 Update signatures and file integrity are verified. If startup fails, the updater attempts to restore the previous app.
 Install in Applications using your own account. If permissions or macOS security block the update, install the latest DMG manually.
+
+2.0.2 classroom workflow
+Instructors register an XLSX or UTF-8 CSV roster for each exam. Keep student numbers as text, including leading zeros.
+The roster persists on the server and is shared with the instructor's assistants. Only the instructor can replace it.
+Students are matched by student number; a different name spelling does not block entry.
+Submitting freezes the answers and results. The app retries failed uploads and waits for instructor/assistant confirmation before enabling Exit.
+Instructors and assistants can select individual/all students to switch active exams to assignment mode. Submitted answers stay locked.
+Encrypted automatic backups and approval-based recovery remain in place; no new final-submission signature or encryption is added.
