@@ -31,3 +31,5 @@ Encrypted automatic backups and approval-based recovery remain in place; no new 
 2.0.5: Five theory question types; Save or ⌘S saves all theory answers and code. In Study mode, save and reopen the learning JSON to continue.
 
 2.0.5: Improved long Unicode temporary paths and submission/exit handling. Install in Applications.
+
+November 2, 2026: Downloads replaced with the 2.0.5 icon fix. If you installed an earlier 2.0.5 build, download again and replace the app manually. Same-version builds do not update automatically.
