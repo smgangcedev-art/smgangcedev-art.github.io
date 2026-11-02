@@ -1,4 +1,4 @@
-Codebitda Java 2.0.5 — Mac installation
+Codebitda Java 2.0.6 — Mac installation
 macOS 13 or later. Apple Silicon (M1 or later) only. Intel Macs are not supported.
 
 1. Download the Java Mac DMG above and open it.
@@ -14,12 +14,12 @@ If the app is reported as damaged, download and reinstall it from this website. 
 Full guide: https://codepretender.com/codebitda-java-en.html#mac-install
 
 Automatic updates
-If you use 2.0.0, install 2.0.5 manually once. Versions 2.0.1, 2.0.2, 2.0.3, and 2.0.4 download this update automatically from the home screen.
+If you use 2.0.0, install 2.0.6 manually once. Versions 2.0.1, 2.0.2, 2.0.3, 2.0.4, and 2.0.5 download this update automatically from the home screen.
 Save or submit your work, return home, and choose Update & restart. The app will not restart automatically during exams, assignments, or authoring.
 Update signatures and file integrity are verified. If startup fails, the updater attempts to restore the previous app.
 Install in Applications using your own account. If permissions or macOS security block the update, install the latest DMG manually.
 
-2.0.5 classroom workflow
+2.0.6 classroom workflow
 Instructors register an XLSX or UTF-8 CSV roster for each exam. Keep student numbers as text, including leading zeros.
 The roster persists on the server and is shared with the instructor's assistants. Only the instructor can replace it.
 Students are matched by student number; a different name spelling does not block entry.
@@ -27,8 +27,8 @@ Submitting freezes the answers and results. The app retries failed uploads and w
 Instructors and assistants can select individual/all students to switch active exams to assignment mode. Submitted answers stay locked.
 Encrypted automatic backups and approval-based recovery remain in place; no new final-submission signature or encryption is added.
 
-2.0.5: Five theory question types; Save or ⌘S saves all theory answers and code. In Study mode, save and reopen the learning JSON to continue.
+2.0.6: Five theory question types; Save or ⌘S saves all theory answers and code. In Study mode, save and reopen the learning JSON to continue.
 
-2.0.5: Improved long Unicode temporary paths and submission/exit handling. Install in Applications.
+2.0.6: Improved long Unicode temporary paths and submission/exit handling. Install in Applications.
 
-November 2, 2026: Downloads replaced with the 2.0.5 icon fix. If you installed an earlier 2.0.5 build, download again and replace the app manually. Same-version builds do not update automatically.
+Mac 2.0.6 · Theory HTML results and room management  Theory submissions include JSON and HTML. Coding results retain source files, notebooks, and output images; theory questions do not create empty code files.  Instructor final results show student answers and scores alongside correct answers, accepted alternatives, and grading criteria. Answer keys remain hidden from student packages.  Professors can delete their own closed or archived rooms after confirming the room name. Drive files, courses, and rosters are preserved.
