@@ -7,6 +7,15 @@ const originalText=new Map();
 function updateLanguage(){
  document.documentElement.lang=uiEnglish?'en':'ko';
  document.querySelectorAll('[data-ui-lang]').forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.uiLang==='en')===uiEnglish)));
+ document.querySelectorAll('header a,footer a,.bank-nav a').forEach(a=>{
+  if(!a.dataset.koHref)a.dataset.koHref=a.getAttribute('href');
+  const href=a.dataset.koHref;
+  if(uiEnglish){a.setAttribute('href',href.startsWith('codebitda-bank')?href+'?lang=en':href.replace(/\.html$/, '-en.html'));}
+  else a.setAttribute('href',href);
+ });
+ document.querySelector('section[aria-label]')?.setAttribute('aria-label',tr('문제 찾기','Find questions'));
+ document.querySelector('.bank-nav')?.setAttribute('aria-label',tr('언어별 필터','Filter by programming language'));
+ document.querySelector('meta[name="description"]')?.setAttribute('content',tr('C++, Java, AI 수업 문제와 연습문제. 문제와 정답을 함께 읽고 내려받으세요.','C++, Java and AI lessons and practice. Browse and download questions with answers.'));
  const topic=document.body.dataset.bankLanguage;const scope=topic==='전체'?'All':topic;
  document.title=tr((topic==='전체'?'전체':topic)+' 공개 문제은행 | 코드빚다',scope+' Question Bank | Codebitda');
  const replacements={
@@ -14,10 +23,10 @@ function updateLanguage(){
  '.intro':(topic==='전체'?'C++, Java and AI':scope)+' lessons and practice questions.<br>Browse and download questions with answers.',
  '.stats':(topic==='전체'?'14 sets · 57 questions':topic==='Java'?'5 sets · 20 questions':topic==='AI'?'3 sets · 16 questions':'6 sets · 21 questions')+' · Questions + answers',
  '.note':'Extract the ZIP and open 문제.json in Study mode in the matching app. No login, instructor approval or enrollment is required. Save your code locally. If Study mode is missing, update to a version that supports it.',
- 'footer a':'Privacy policy (Korean)'
+ 'footer a':'Privacy policy'
  };
  for(const [selector,en] of Object.entries(replacements)){const e=$(selector);if(!e)continue;if(!originalText.has(e))originalText.set(e,e.innerHTML);e.innerHTML=uiEnglish?en:originalText.get(e);}
- document.querySelectorAll('header nav a').forEach(a=>{if(!originalText.has(a))originalText.set(a,a.textContent);const t=originalText.get(a);a.textContent=uiEnglish?(t.includes('이용')?'User guide (Korean)':t.includes('선택')?'All question banks':t.replace('코드빚다 앱 소개','Codebitda apps').replace(' 앱 소개',' app')):t;});
+ document.querySelectorAll('header nav a').forEach(a=>{if(!originalText.has(a))originalText.set(a,a.textContent);const t=originalText.get(a);a.textContent=uiEnglish?(t.includes('이용')?'User guide':t.includes('선택')?'All question banks':t.replace('코드빚다 앱 소개','Codebitda apps').replace(' 앱 소개',' app')):t;});
  for(const [selector,ko,en] of [['.search','주제 검색','Search topics'],['.kind','분류','Category']]){const el=$(selector);for(const n of el.childNodes)if(n.nodeType===3&&n.textContent.trim()){n.textContent=tr(ko,en);break;}}
  $('#search').placeholder=tr('포인터, 생성자, 회귀…','Pointers, constructors, regression…');
  for(const opt of $('#kind').options){if(!opt.dataset.original)opt.dataset.original=opt.textContent;opt.value=opt.dataset.original;opt.textContent=opt.value==='전체'?tr('전체','All'):kindName(opt.value);}
