@@ -1,0 +1,5 @@
+﻿ID,Name,Email,Topic,Amount,Due Date,Billing Month,Payment Info,Attachments
+C001,Alex Example,billing1@example.com,Monthly service fee,35000,2026-11-30,2026-11,Replace with your payment instructions,
+C002,Jamie Example,billing2@example.com,Monthly service fee,55000,2026-11-30,2026-11,Replace with your payment instructions,
+C003,Taylor Example,billing3@example.com,Monthly service fee,25000,2026-11-30,2026-11,Replace with your payment instructions,
+C004,Morgan Example,billing4@example.com,Monthly service fee,45000,2026-11-30,2026-11,Replace with your payment instructions,
