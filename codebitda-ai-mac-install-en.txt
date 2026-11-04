@@ -1,4 +1,4 @@
-Codebitda AI 2.0.6 — Mac installation
+Codebitda AI 2.0.7 — Mac installation
 macOS 13 or later. Apple Silicon (M1 or later) only. Intel Macs are not supported.
 
 1. Download the AI Mac DMG above and open it.
@@ -15,7 +15,7 @@ If the app is reported as damaged, download and reinstall it from this website. 
 Full guide: https://codepretender.com/codebitda-ai-en.html#mac-install
 
 Automatic updates
-If you use 2.0.0, install 2.0.6 manually once. Versions 2.0.1, 2.0.2, 2.0.3, 2.0.4, and 2.0.5 download this update automatically from the home screen.
+If you use 2.0.0, install 2.0.7 manually once. Versions 2.0.1 through 2.0.6 download this update automatically from the home screen.
 Save or submit your work, return home, and choose Update & restart. The app will not restart automatically during exams, assignments, or authoring.
 Update signatures and file integrity are verified. If startup fails, the updater attempts to restore the previous app.
 Install in Applications using your own account. If permissions or macOS security block the update, install the latest DMG manually.
@@ -33,3 +33,9 @@ Encrypted automatic backups and approval-based recovery remain in place; no new 
 2.0.6: Improved long Unicode temporary paths and submission/exit handling. Install in Applications.
 
 Mac 2.0.6 · Theory HTML results and room management  Theory submissions include JSON and HTML. Coding results retain source files, notebooks, and output images; theory questions do not create empty code files.  Instructor final results show student answers and scores alongside correct answers, accepted alternatives, and grading criteria. Answer keys remain hidden from student packages.  Professors can delete their own closed or archived rooms after confirming the room name. Drive files, courses, and rosters are preserved.
+
+Mac 2.0.7 · Exam references and published answers
+Open your PDFs and PowerPoint slides in separate tabs. Press ⌘F to find a page or slide. Select text in a PDF, press ⌘C, then paste it into your Python editor with ⌘V. Scanned pages without selectable text cannot be searched or copied.
+Mac Quick Look opens supported PPT and PPTX files. If a presentation does not open, export it as PDF and try again.
+After joining with your class code and student number, check the roster name in the top left. Use the Answer Code tab to view the solution once your professor publishes it.
+Instructors can find students waiting for submission confirmation first, sort by name or student number, and allow individual students to exit. The professor who owns the room can download its diagnostic logs. An external window detection is logged without locking the exam.
