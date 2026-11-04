@@ -1,4 +1,4 @@
-Codebitda Java 2.0.7 — Mac installation
+Codebitda Java 2.0.8 — Mac installation
 macOS 13 or later. Apple Silicon (M1 or later) only. Intel Macs are not supported.
 
 1. Download the Java Mac DMG above and open it.
@@ -14,7 +14,7 @@ If the app is reported as damaged, download and reinstall it from this website. 
 Full guide: https://codepretender.com/codebitda-java-en.html#mac-install
 
 Automatic updates
-If you use 2.0.0, install 2.0.7 manually once. Versions 2.0.1 through 2.0.6 download this update automatically from the home screen.
+If you use 2.0.0, install 2.0.8 manually once. Versions 2.0.1 through 2.0.7 download this update automatically from the home screen.
 Save or submit your work, return home, and choose Update & restart. The app will not restart automatically during exams, assignments, or authoring.
 Update signatures and file integrity are verified. If startup fails, the updater attempts to restore the previous app.
 Install in Applications using your own account. If permissions or macOS security block the update, install the latest DMG manually.
@@ -38,3 +38,8 @@ Open your PDFs and PowerPoint slides in separate tabs. Press ⌘F to find a page
 Mac Quick Look opens supported PPT and PPTX files. If a presentation does not open, export it as PDF and try again.
 After joining with your class code and student number, check the roster name in the top left. Use the Answer Code tab to view the solution once your professor publishes it.
 Instructors can find students waiting for submission confirmation first, sort by name or student number, and allow individual students to exit. The professor who owns the room can download its diagnostic logs. An external window detection is logged without locking the exam.
+
+Mac 2.0.8 · Split view and question-by-question answer release
+Read theory questions on the left and references on the right. Each PDF or slide deck remembers its zoom (50–300%) and reading position. Use ⌘F to find a page and ⌘C/⌘V to copy selectable PDF text into your code.
+Professors can attach an answer JSON file when opening a room. Students see an answer in the Published Answer tab only after the professor releases that question. Publication does not change the grading criteria.
+Students waiting for submission confirmation appear first in the attendance view. Expand the details of a forced exit to see who processed it and when.
