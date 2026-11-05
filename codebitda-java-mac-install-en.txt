@@ -1,4 +1,4 @@
-Codebitda Java 2.0.8 — Mac installation
+Codebitda Java 2.0.9 — Mac installation
 macOS 13 or later. Apple Silicon (M1 or later) only. Intel Macs are not supported.
 
 1. Download the Java Mac DMG above and open it.
@@ -14,7 +14,7 @@ If the app is reported as damaged, download and reinstall it from this website. 
 Full guide: https://codepretender.com/codebitda-java-en.html#mac-install
 
 Automatic updates
-If you use 2.0.0, install 2.0.8 manually once. Versions 2.0.1 through 2.0.7 download this update automatically from the home screen.
+If you use 2.0.0, install 2.0.9 manually once. Versions 2.0.1 through 2.0.8 download this update automatically from the home screen.
 Save or submit your work, return home, and choose Update & restart. The app will not restart automatically during exams, assignments, or authoring.
 Update signatures and file integrity are verified. If startup fails, the updater attempts to restore the previous app.
 Install in Applications using your own account. If permissions or macOS security block the update, install the latest DMG manually.
@@ -43,3 +43,6 @@ Mac 2.0.8 · Split view and question-by-question answer release
 Read theory questions on the left and references on the right. Each PDF or slide deck remembers its zoom (50–300%) and reading position. Use ⌘F to find a page and ⌘C/⌘V to copy selectable PDF text into your code.
 Professors can attach an answer JSON file when opening a room. Students see an answer in the Published Answer tab only after the professor releases that question. Publication does not change the grading criteria.
 Students waiting for submission confirmation appear first in the attendance view. Expand the details of a forced exit to see who processed it and when.
+
+Mac 2.0.9 · Document zoom and code references
+In the References tab, read the question on the left and the document on the right. Hold Ctrl or ⌘ and scroll up to zoom in on a PDF or slide, or down to zoom out. Switch to My Code to edit your answer. Open TXT, JAVA files as read-only references.
