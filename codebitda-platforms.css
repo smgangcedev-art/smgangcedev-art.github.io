@@ -8,3 +8,5 @@
 .question-bank-banner{margin:0 0 28px}
 
 .main-bank-banner{margin:32px 0 0}
+
+.mac-release-archive > summary { cursor: pointer; padding: .75rem 0; font-weight: 600; }
